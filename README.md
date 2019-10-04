@@ -4,6 +4,7 @@ The API was designed to fit the common cofoundry structure.
 
 ## Info
 ![Cofoundry](https://www.cofoundry.org/content/images/external/logo_for_github_readme.png)
+
 This package extends cofoundry (https://www.cofoundry.org) with the capabilities to 
 query custom entities using the SQL Server JSON_VALUE function.
 I am in no way affiliate with cofoundry.
@@ -18,7 +19,7 @@ Just reference the package in your cofoundry project.
 ## How to use
 Using the cofoundry Sample Site as example (https://github.com/cofoundry-cms/Cofoundry.Samples.SimpleSite)
 
-To realize the category search thats currently missing in BlogPostListViewComponent (https://github.com/cofoundry-cms/Cofoundry.Samples.SimpleSite/blob/master/src/Cofoundry.Samples.SimpleSite/ViewComponents/BlogPostListViewComponent.cs)
+To implement the category search thats currently missing in BlogPostListViewComponent (https://github.com/cofoundry-cms/Cofoundry.Samples.SimpleSite/blob/master/src/Cofoundry.Samples.SimpleSite/ViewComponents/BlogPostListViewComponent.cs)
 we first implement a specification to search 
 
 ```
