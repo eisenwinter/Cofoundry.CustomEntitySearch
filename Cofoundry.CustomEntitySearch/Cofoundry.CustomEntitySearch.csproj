@@ -2,6 +2,26 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Jan Maximilian Caspar</Authors>
+    <Company />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A cofoundry extensions that lets you query custom entities out of the box.
+
+For further information see https://github.com/eisenwinter/Cofoundry.CustomEntitySearch
+
+(This project is not affiliated with cofoundry itself)</Description>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/eisenwinter/Cofoundry.CustomEntitySearch</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/eisenwinter/Cofoundry.CustomEntitySearch</RepositoryUrl>
+    <PackageTags>cofoundry cms extension</PackageTags>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <Version>0.1.0</Version>
+    <RepositoryType>git</RepositoryType>
+    <PackageIconUrl>https://www.cofoundry.org/Content/images/external/logo-nuget-64x64.png</PackageIconUrl>
+    <PackageId>sbkst.Cofoundry.CustomEntitySearch</PackageId>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,6 +30,13 @@
 
   <ItemGroup>
     <Folder Include="Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

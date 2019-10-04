@@ -1,4 +1,7 @@
 # Cofoundry.CustomEntitySearch
+
+[![NuGet](https://img.shields.io/nuget/v/sbkst.Cofoundry.CustomEntitySearch.svg)](https://www.nuget.org/packages/sbkst.Cofoundry.CustomEntitySearch/)
+
 Search Custom Entities `out-of-box` with SQL Server´s `JSON_VALUE` function.
 The API was designed to fit the common cofoundry structure.
 
