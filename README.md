@@ -1,0 +1,2 @@
+# Cofoundry.CustomEntitySearch
+Cofoundry.CustomEntitySearch
